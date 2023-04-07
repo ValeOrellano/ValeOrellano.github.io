@@ -60,9 +60,7 @@ a {
 .inicio img{
   max-width: 100%;
   width: auto;
-  margin-top: 30px;
-
-  
+  margin-top: 30px;  
 }
 .ofrecimientos{
   display: flex;
@@ -115,6 +113,15 @@ a {
 .fa-lg{
   line-height:  none;
 }
+
+.mpagos{
+  width: 100%;
+  display: flex;
+
+   background-color: rgb(255, 124, 80); 
+  
+}
+
 
 @media (min-width: 950px) {
   .horizontal-padding {
@@ -206,5 +213,12 @@ body {
   }
  p{
   font-size: 7vh;
- } 
+ }
+ 
+.mpagos{
+    display: flex;
+    width: auto;
+    background-color: rgb(255, 124, 80); 
+}
+
 }
