@@ -60,7 +60,7 @@ a {
 .inicio img{
   max-width: 100%;
   width: auto;
-  margin-top: 30px;  
+  margin-top: -30px;   
 }
 .ofrecimientos{
   display: flex;
@@ -86,6 +86,9 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.nosotros p{
+  margin-top: 5px;
 }
 .separador{
   display: flex;
@@ -117,10 +120,12 @@ a {
 .mpagos{
   /* width: 100%; */
   display: flex;
-
-   background-color: rgb(255, 124, 80); 
-  
+   /* background-color: rgb(255, 124, 80);  */
 }
+.mpagos img{
+  width: 144px;
+}
+
 
 
 @media (min-width: 950px) {
